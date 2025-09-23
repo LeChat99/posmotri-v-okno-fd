@@ -57,6 +57,7 @@ ol {
 }
 
 .result__video {
+  margin-top: 78px;
   max-width: 711px;
 }
 
@@ -111,4 +112,17 @@ input[type="checkbox"]:checked + span {
 width: 15px;
 height: 15px;
 background-color: white;
+}
+
+/* ПРАВАЯ КОЛОНКА */
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 75px;
+  text-transform: uppercase;
+}
+
+.content__accent {
+  color: #545050;
 }
