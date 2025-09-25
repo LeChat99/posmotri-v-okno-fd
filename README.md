@@ -1,3 +1,3 @@
-https://github.com/LeChat99/posmotri-v-okno
+https://github.com/LeChat99/posmotri-v-okno-fd
 
 Много нового узнал, второй спринт оказался посложнее, но я не планирую сдаваться. Спасибо вам за вашу работу, буду ждать обратной связи 
