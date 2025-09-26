@@ -61,8 +61,8 @@ ol {
 
 .result__video-container {
   position: relative;
-  max-height: 386px;
-  margin-top: 68px;
+  top: 68px;
+  height: 386px;
 }
 
 .result__video {
@@ -72,7 +72,7 @@ ol {
 }
 
 .search-form {
-  margin-top: 85px;
+  margin-top: 12%;
   display: grid;
   grid-template-columns: 225px 212px 194px;
   justify-content: space-between;
@@ -143,6 +143,10 @@ ol {
   outline-offset: 1px;
 }
 
+.search-form__label:hover {
+  text-decoration: underline;
+}
+
 .search-form__checkbox {
   display: none;
 }
@@ -165,10 +169,6 @@ input[type="checkbox"]:checked + span {
   line-height: 19px;
 }
 
-.search-form__label-text:hover {
-  text-decoration: underline;
-}
-
 /* КНОПКА */
 
 .button {
@@ -180,6 +180,7 @@ input[type="checkbox"]:checked + span {
   font-size: 16px;
   color: white;
   cursor: pointer;
+  font-family: inherit;
 }
 
 button:active {
@@ -212,7 +213,7 @@ button:active {
 .content__list-container {
   position: relative;
   margin-top: 24px;
-  max-height: 296px;
+  height: 296px;
   overflow: auto;
 }
 
@@ -273,9 +274,11 @@ button:active {
   line-height: 16px;
   letter-spacing: 0;
   text-overflow: ellipsis;
-  white-space: nowrap;
   overflow: hidden;
   max-width: 192px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .content__video-card-thumbnail {
