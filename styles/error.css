@@ -1,9 +1,6 @@
 .error {
-  width: 711px;
-  height: 386px;
   position: absolute;
-  top: 78px;
-  left: 156px;
+  inset: 0;
   display: flex;
   justify-content: center;
   align-items: center;

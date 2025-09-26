@@ -59,14 +59,20 @@ ol {
   column-gap: 30px;
 }
 
-.result__video {
-  margin-top: 78px;
-  width: 100%;
+.result__video-container {
+  position: relative;
   max-height: 386px;
 }
 
+.result__video {
+  margin-top: 68px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .search-form {
-  margin-top: 4px;
+  margin-top: 85px;
   display: grid;
   grid-template-columns: 225px 212px 194px;
   justify-content: space-between;
@@ -80,7 +86,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  margin-top: 1px;
+  margin-top: 4px;
   font-weight: 400;
   font-size: 18px;
 }
@@ -116,15 +122,15 @@ ol {
 /* ВРЕМЯ СУТОК */
 
 .search-form__checkbox-list {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 7px;
+  margin-bottom: 6px;
   display: flex;
   justify-content: space-between;
 }
 
 .search-form__checkbox-list .search-form__label {
-  display: inline-block;
-  max-height: 19px;
+  display: flex;
+  align-items: center;
 }
 
 .search-form__pseudo-checkbox:not(:first-child) {
@@ -154,6 +160,7 @@ input[type="checkbox"]:checked + span {
 
 .search-form__label-text {
   display: inline-block;
+  margin-left: 7px;
   line-height: 19px;
 }
 
@@ -202,6 +209,7 @@ button:active {
 }
 
 .content__list-container {
+  position: relative;
   margin-top: 24px;
   max-height: 296px;
   overflow: auto;
@@ -245,6 +253,10 @@ button:active {
   line-height: 100%;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 192px; 
 }
 
 .content__video-card-description {
@@ -254,9 +266,15 @@ button:active {
   font-size: 18px;
   line-height: 16px;
   letter-spacing: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 192px; 
 }
 
 .content__video-card-thumbnail {
+  object-fit: cover;
+  object-position: center;
   margin-right: 4px;
   max-width: 194px;
 }
