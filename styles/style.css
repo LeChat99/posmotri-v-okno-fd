@@ -60,10 +60,12 @@ ol {
 }
 
 .result__video-container {
+  padding-top: 68px;
   position: relative;
-  top: 68px;
   height: 386px;
 }
+
+/* Изменил на padding */
 
 .result__video {
   width: 100%;
@@ -177,11 +179,12 @@ input[type="checkbox"]:checked + span {
   background-color: transparent;
   border: 1px solid white;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   color: white;
   cursor: pointer;
   font-family: inherit;
 }
+/* Поменял font-size надеючсь ты об этом говорил */
 
 button:active {
   background-color: #545050;
@@ -291,3 +294,5 @@ button:active {
 .more-button {
   width: 100%;
 }
+
+/* Незнаю досмотришь ли ты до конца этот файл, но спасибо тебе за твою работу и хорошего вечера:-)) */
