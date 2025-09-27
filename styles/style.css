@@ -60,21 +60,21 @@ ol {
 }
 
 .result__video-container {
-  padding-top: 68px;
+  margin-top: 74px;
   position: relative;
   height: 386px;
 }
 
-/* Изменил на padding */
 
 .result__video {
+  height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
 }
 
 .search-form {
-  margin-top: 12%;
+  margin-top: 12px;
   display: grid;
   grid-template-columns: 225px 212px 194px;
   justify-content: space-between;
@@ -256,6 +256,7 @@ button:active {
 }
 
 .content__video-card-title {
+  margin-top: 2px;
   margin-left: 2px;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
@@ -295,4 +296,4 @@ button:active {
   width: 100%;
 }
 
-/* Незнаю досмотришь ли ты до конца этот файл, но спасибо тебе за твою работу и хорошего вечера:-)) */
+/* Незнаю досмотришь ли ты до конца этот файл, но спасибо тебе за твою работу и хорошего вечера:-))  */
