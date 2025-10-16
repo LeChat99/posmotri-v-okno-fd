@@ -184,7 +184,7 @@ input[type="checkbox"]:checked + span {
   cursor: pointer;
   font-family: inherit;
 }
-/* Поменял font-size надеючсь ты об этом говорил */
+
 
 button:active {
   background-color: #545050;
@@ -296,4 +296,4 @@ button:active {
   width: 100%;
 }
 
-/* Незнаю досмотришь ли ты до конца этот файл, но спасибо тебе за твою работу и хорошего вечера:-))  */
+
